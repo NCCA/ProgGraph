@@ -1,0 +1,468 @@
+Running in normal mode
+[36m13:24:40 - INFO - Registered uniform: shininess (type: float, location: 0)[0m
+[36m13:24:40 - INFO - Registered uniform: M (type: mat4, location: 1)[0m
+[36m13:24:40 - INFO - Registered uniform: specularStrength (type: float, location: 5)[0m
+[36m13:24:40 - INFO - Registered uniform: MVP (type: mat4, location: 6)[0m
+[36m13:24:40 - INFO - Registered uniform: objectColor (type: vec3, location: 10)[0m
+[36m13:24:40 - INFO - Registered uniform: viewPos (type: vec3, location: 11)[0m
+[36m13:24:40 - INFO - Registered uniform: lightColor (type: vec3, location: 12)[0m
+[36m13:24:40 - INFO - Registered uniform: lightPos (type: vec3, location: 13)[0m
+[36m13:24:40 - INFO - FOUND UNIFORM BLOCKS 0[0m
+[36m13:24:40 - INFO - Shader program 'PhongShader' created[0m
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 294, in timerEvent
+    v1 = p2 - p1
+         ~~~^~~~
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/ncca/ngl/vec3.py", line 128, in __sub__
+    r.x = self.x - rhs.x
+    ^^^
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/ncca/ngl/vec3.py", line 394, in setter
+    self._validate_and_set(value, f"_{attr_name}")
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/ncca/ngl/vec3.py", line 77, in _validate_and_set
+    raise ValueError(f"need float or int {v=} {name=}")
+ValueError: need float or int v=array([0.33333302], dtype=float32) name='_x'
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+Error calling Python override of QOpenGLWindow::timerEvent(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/FlatShaded/OpenGL/./OpenGLTriangleGrid.py", line 267, in timerEvent
+    ptr = gl.glMapBuffer(gl.GL_ARRAY_BUFFER, gl.GL_WRITE_ONLY)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glMapBuffer,
+	cArguments = (GL_ARRAY_BUFFER, GL_WRITE_ONLY)
+)
+21600
+([-10.0], [-0.42686617], [-9.666667], [0.0], [1.0], [0.0], [0.0], [0.016666668]) ([-9.666667], [-0.7313502], [-9.666667], [0.0], [1.0], [0.0], [0.016666668], [0.016666668]) ([-10.0], [-0.29505044], [-10.0], [0.0], [1.0], [0.0], [0.0], [0.0])

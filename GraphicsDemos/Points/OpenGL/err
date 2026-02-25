@@ -1,0 +1,76 @@
+[36m13:14:45 - INFO - Registered uniform: MVP (type: mat4, location: 0)[0m
+[36m13:14:45 - INFO - FOUND UNIFORM BLOCKS 0[0m
+[36m13:14:45 - INFO - Shader program 'PointShader' created[0m
+Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/Points/OpenGL/./OpenGLPoints.py", line 171, in notify
+    return super().notify(receiver, event)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/Points/OpenGL/./OpenGLPoints.py", line 119, in paintGL
+    gl.glDrawArrays(gl.GL_POINTS, 0, self.n_points)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/platform/baseplatform.py", line 487, in __call__
+    return self(*args, **named)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glDrawArrays,
+	cArguments = (GL_POINTS, 0, 10000)
+)
+Error calling Python override of QApplication::notify(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/Points/OpenGL/./OpenGLPoints.py", line 171, in notify
+    return super().notify(receiver, event)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/Points/OpenGL/./OpenGLPoints.py", line 119, in paintGL
+    gl.glDrawArrays(gl.GL_POINTS, 0, self.n_points)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/platform/baseplatform.py", line 487, in __call__
+    return self(*args, **named)
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glDrawArrays,
+	cArguments = (GL_POINTS, 0, 10000)
+)
+Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/Points/OpenGL/./OpenGLPoints.py", line 171, in notify
+    return super().notify(receiver, event)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/Points/OpenGL/./OpenGLPoints.py", line 119, in paintGL
+    gl.glDrawArrays(gl.GL_POINTS, 0, self.n_points)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glDrawArrays,
+	cArguments = (GL_POINTS, 0, 10000)
+)
+Error calling Python override of QApplication::notify(): Traceback (most recent call last):
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/Points/OpenGL/./OpenGLPoints.py", line 171, in notify
+    return super().notify(receiver, event)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Volumes/teaching/Code/ASEPythonCode/GraphicsDemos/Points/OpenGL/./OpenGLPoints.py", line 119, in paintGL
+    gl.glDrawArrays(gl.GL_POINTS, 0, self.n_points)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/teaching/Code/ASEPythonCode/.venv/lib/python3.14/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+    ...<4 lines>...
+    )
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = b'invalid operation',
+	baseOperation = glDrawArrays,
+	cArguments = (GL_POINTS, 0, 10000)
+)
+1
