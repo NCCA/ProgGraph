@@ -1,0 +1,32 @@
+[project]
+name = "image"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jon Macey", email = "jmacey@bournemouth.ac.uk" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.3.3",
+    "pillow>=11.3.0",
+]
+
+[project.scripts]
+image = "image:main"
+
+[build-system]
+requires = ["uv_build"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = "src"
+exclude = ["tests"]
+
+
+
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+]
